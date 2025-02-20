@@ -45,8 +45,8 @@ public:
 	{
 		// Called once per frame, draws 10x10 red squares
 		for (auto p : points) {
-			for (int i = 0; i < 10; i++) {
-				for (int j = 0; j < 5; j++) {
+			for (int i = 0; i < 3; i++) {
+				for (int j = 0; j < 3; j++) {
 					Draw(p.x + i, p.y + j, olc::Pixel(olc::RED));
 				}
 			}
